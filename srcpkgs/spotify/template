@@ -13,10 +13,10 @@ build_style=fetch
 depends="binutils gtk+ nss GConf libXScrnSaver xz"
 
 if test "${XBPS_TARGET_MACHINE}" = "x86_64"; then
-	_sversion=".94.g8a839395-32_amd64"
+	_sversion=".96.g3c8a06e6-37_amd64"
 	_schecksum="41d9384d592eaffef267700643c90efd0836a4fd070f0a2bbf48f29e64d8818c"
 else
-	_sversion=".94.g8a839395-2_i386"
+	_sversion=".96.g3c8a06e6-3_i386"
 	_schecksum="3920eeab14fe4092ca0999bcfc44884a8c47ffe7b7346d89ea20f77019807228"
 fi
 
